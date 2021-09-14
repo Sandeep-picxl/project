@@ -1,0 +1,19 @@
+{% load static %}
+<html lang="en">
+<head>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="{% static 'myapp/style.css' %}">
+  <!-- Image and text -->
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+<!--    <img src="{% static 'image/around.svg' %}" width="30" height="30" class="d-inline-block align-top" alt="">-->
+    Online shoping Center <li><a href="add">Add product</a></li>
+  </a>
+</nav>
+</head>
+<body>
+{% block body %}
+{% endblock %}
+</body>
+</html>
